@@ -7,12 +7,12 @@ The motivation for this project is to focus on the management of large amounts o
 
 Getting Started
 For MongoDB database, we must set up authentication to connect to the server. This would be 
-	USER: root
-	PASS: xEtjPRaT9l
-	HOST: nv-desktop-services.apporto.com
-	PORT: 34179
-	DATABASE: AAC
-	COLLECTION: animals
+:cherry_blossom:USER: root
+:cherry_blossom:PASS: xEtjPRaT9l
+:cherry_blossom:HOST: nv-desktop-services.apporto.com
+:cherry_blossom:PORT: 34179
+:cherry_blossom:DATABASE: AAC
+:cherry_blossom:COLLECTION: animals
 The Create method will allow us to add a new animal to the database. There were many challenges with this connection. I was unfamiliar with how to properly set up a connection and before fixing my errors, I was setting up my code, check the image down below.
  
 I am still unsure if this will work however, after some research, it seems that this is not standard practice due to the possibility of exposing sensitive information. So, I changed that to how it should have been done which looks like, check the image down below.
@@ -55,5 +55,5 @@ This code below will question if there is an animal with the name Pussnboots in 
 To show the results of the query, we have these few lines of code. It will iterate through an animal list and that list is returned by the read method. If there are animals in this list, it will print the list. If not, then it will print an error message.
  
 
-##Author
+Author
 Bianca Gutierrez
