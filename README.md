@@ -8,9 +8,9 @@ The motivation for this project is to focus on the management of large amounts o
 Getting Started
 For MongoDB database, we must set up authentication to connect to the server. This would be 
 🌺 USER: root
-🌺PASS: xEtjPRaT9l
-🌺HOST: nv-desktop-services.apporto.com
-🌺PORT: 34179
+🌺PASS: ****
+🌺HOST: ***
+🌺PORT: ****
 🌺DATABASE: AAC
 🌺COLLECTION: animals
 The Create method will allow us to add a new animal to the database. There were many challenges with this connection. I was unfamiliar with how to properly set up a connection and before fixing my errors, I was setting up my code, check the image down below.
